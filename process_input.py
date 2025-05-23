@@ -1,8 +1,8 @@
 import sys
 
-x = float(sys.argv[1])
-y = float(sys.argv[2])
-z = float(sys.argv[3])
+x = int(sys.argv[1])
+y = int(sys.argv[2])
+z = int(sys.argv[3])
 
 original_x = x
 
@@ -23,11 +23,10 @@ step5 = x
 
 final_result = step5 + y + z
 
-print("Content-Type: text/html\n")
 print(f"""
 <html>
 <body>
-    <div style="background-color:#fde7d8; border:1px solid black; padding:15px;">
+    <div style="background-color:#fde7d8; border:1px solid black; padding:15px; width:500px;">
         <h1>Assignment #3</h1>
         <p>Python Script Result<br>Original Values:</p>
         <ul>
